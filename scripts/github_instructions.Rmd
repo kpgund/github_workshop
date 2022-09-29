@@ -1,0 +1,34 @@
+---
+title: "Git Instructions"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1) Making Sure Git Is Installed
+
+Go to your terminal (Mac), search GitBash (Windows), or open the terminal in RStudio (next to the console)
+
+### Check to see if Git is Installed
+```{bash}
+which git
+```
+### check to see which version is installed
+
+```{bash}
+git --version
+```
+
+#### Everyone should have git installed before this workshop
+
+## Step 2) Telling Git Your GitHub Credentials
+### Substitute your credientials 
+```{bash}
+git config --global user.name 'UserName'
+git config --global user.email 'user@email.com'
+git config --global --list
+```
+
+## 
