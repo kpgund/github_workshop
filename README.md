@@ -1,7 +1,12 @@
-# github_workshop
-Graduate student led workshop on efficient project management with RStudio and GitHub. 
+# Github Workshop Repository
 
-We are working on developing a toolbox to create an effective workflow that is contained. 
+## Graduate student led workshop on Oct. 13th, 2022
+We focused on efficient project management with RStudio and GitHub. Our goal was to help graduate students develop a toolbox to create an effective workflow that is contained. 
 
-10/4/2022:
-VAW updated presentation
+## Led By: 
+### Katie Gundermann
+Interested in learning more?
+check out Katie's [Github](https://github.com/kpgund), [website](https://kpgund.github.io/index.html), or [twitter](www.twitter.com/kpgund), if you're so inclined
+### Veronica Winter
+Interested in learning more?
+check out Veronica's [Github](https://github.com/vermanica), [website](https://www.vwintereco.com/), or [twitter](www.twitter.com/winter_eco), if you're so inclined
