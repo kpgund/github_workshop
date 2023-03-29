@@ -64,7 +64,7 @@ $ pbcopy < ~/.ssh/id_ed25519.pub
 ![Go to settings on your GitHub page](/img/github_settings_main.PNG) 
 
 ### 4.3 Select SSH GPG keys on the left-hand panel
-![Select SSH & GPG keys on the left-hand panel](/img/github_ssh.PNG) 
+![Select SSH & GPG keys on the left-hand panel](/img/github_ssh.png) 
 
 ### 4.4 New SSH key
 ![Select `New SSH key` to add the key we just copied to our clipboard](/img/github_addnewkey.png) 
@@ -84,7 +84,7 @@ $ pbcopy < ~/.ssh/id_ed25519.pub
 ![Give it a name (doesn't have to be what I have in the example photo). Once all the information is filled out select `Create Repository` ](/img/github_createrepo.PNG)
 
 ### 6.2 Copy ssh key link for this repository
-![In order to connect this repo with an Rproject, we need to connect this repo at a project on our computer](/img/github_copyrepo.PNG)
+![In order to connect this repo with an Rproject, we need to connect this repo at a project on our computer](/img/github_copyrepo.png)
 
 ## 7. Create a new Version Control RProject
 ### 7.1 open R
