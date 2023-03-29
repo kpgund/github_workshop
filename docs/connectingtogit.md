@@ -69,7 +69,7 @@ $ pbcopy < ~/.ssh/id_ed25519.pub
 ### 4.4 New SSH key
 ![Select `New SSH key` to add the key we just copied to our clipboard](/img/github_addnewkey.png) 
 
-![Title the ssh regarding the computer you are using (work, personal, mac, etc) and copy the key into the Key section](/img/github_shh_add.png) 
+![Title the ssh regarding the computer you are using (work, personal, mac, etc) and copy the key into the Key section](/img/github_shh_add.PNG) 
 
 ### *Please note that steps 1-4 only need to be completed one time per computer and account! The next steps will apply anytime you would like to make a new repository!*
 
@@ -90,20 +90,20 @@ $ pbcopy < ~/.ssh/id_ed25519.pub
 ### 7.1 open R
 ### 7.2 Go to File -> New Project
 ### 7.3 Select the Version Control Project 
-![Select the Version Control project. This option allows us to connect our repository the quickest](/img/github_createnewproject.png)
+![Select the Version Control project. This option allows us to connect our repository the quickest](/img/github_createnewproject.PNG)
 
 ### 7.4 Select the `Git` Project from the Version Control options
-![Select `Git`](/img/github_gitversion.png)
+![Select `Git`](/img/github_gitversion.PNG)
 
 ### 7.5 Copy the ssh key address from step 6.2
-![Copy the address from step 6.2. The project directory name should autopopulate to what you choose as the repo name. You can change where the directory is housed by selecting the browse key. Where it is housed can change later. ](/img/github_clonerepo.png)
+![Copy the address from step 6.2. The project directory name should autopopulate to what you choose as the repo name. You can change where the directory is housed by selecting the browse key. Where it is housed can change later. ](/img/github_clonerepo.PNG)
 
 ### 7.6 Create Project
 
 Once everything is how you would like it to be select `Create Project` The new Rproject will pop up. 
 
 ## 8. Add/edit files in your repository
-Select how you would manage your file stucture for the project (project or activity based? )
+Select how you would manage your file structure for the project (project or activity based? )
 
 ## 9. Commit changes and push to repository. 
 
