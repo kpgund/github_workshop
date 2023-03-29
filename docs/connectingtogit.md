@@ -81,10 +81,10 @@ $ pbcopy < ~/.ssh/id_ed25519.pub
 ![Press the green "New" button. This will create a new repository](/img/github_newrepo.png)
 
 ### 6.2 Set up a new repository 
-![Give it a name (doesn't have to be what I have in the example photo). Once all the information is filled out select `Create Repository` ](/img/github_createrepo.png)
+![Give it a name (doesn't have to be what I have in the example photo). Once all the information is filled out select `Create Repository` ](/img/github_createrepo.PNG)
 
 ### 6.2 Copy ssh key link for this repository
-![In order to connect this repo with an Rproject, we need to connect this repo at a project on our computer](/img/github_copyrepo.png)
+![In order to connect this repo with an Rproject, we need to connect this repo at a project on our computer](/img/github_copyrepo.PNG)
 
 ## 7. Create a new Version Control RProject
 ### 7.1 open R
