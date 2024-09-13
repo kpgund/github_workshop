@@ -1,0 +1,102 @@
+---
+title: "Connecting your computer to Git & GitHub"
+output: 
+  html_document:
+    theme:
+      bootswatch:
+        sandstone
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Making Sure Git Is Installed
+
+Go to your terminal (Mac), search GitBash (Windows), or open the terminal in RStudio (next to the console)
+
+#### Check to see if Git is Installed
+```
+which git
+```
+#### Check to see which version is installed
+```
+git --version
+```
+
+##### Everyone should have installed git & gitbash before this workshop
+
+## 2. Telling Git Your GitHub Credentials
+#### - Substitute your credientials 
+```
+git config --global user.name 'UserName'
+git config --global user.email 'user@email.com'
+git config --global --list
+```
+
+## 3. Generating a new SSH key
+#### Some Background Info
+___
+
+Secure Shell Protocol (SSH) helps you access and write data to GitHub repositories. The SSH key authenticates your machine to GitHub. There are many different layers of security you can add to an SSH key. We will not be adding those layers today. 
+\
+If you think you might already have an SSH key, follow the directions at [this website](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)\
+___
+\
+
+### 3.1 Substitute your email 
+```
+ssh-keygen -t ed25519 -C "user@email.com"
+```
+
+Your output should look something like this 
+`Generating public/private alogrith key pair`
+
+Click `Enter` when you see the prompt below. You do not need to specify which file
+```
+Enter a file in which to save the key (/Users/you/.ssh/id_algorithm): [Press enter]
+```
+You do not need to remember the image that pops up
+
+### 3.2 Adding your SSH key to the ssh-agent
+This will start the ssh-agent in the background.
+```
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+```
+
+### 3.3 Copy the public key to your clipboard
+
+#### Mac
+```
+$ pbcopy < ~/.ssh/id_ed25519.pub
+```
+#### PC
+```
+$ clip < ~/.ssh/id_ed25519.pub
+```
+
+## 4. Connect SSH Key to Github
+
+### 4.1 Go to [GitHub](github.com) and sign in
+### 4.2 Go to your page github.com/username and go to settings
+![Go to settings on your GitHub page](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_settings_main.PNG) 
+
+\
+
+### 4.3 Select SSH GPG keys on the left-hand panel
+![Select SSH & GPG keys on the left-hand panel](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_ssh.PNG) 
+
+\
+
+### 4.4 New SSH key
+![Select `New SSH key` to add the key we just copied to our clipboard](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_addnewkey.png) 
+
+\
+
+![Title the ssh regarding the computer you are using (work, personal, mac, etc) and copy the key into the Key section](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops//github_workshop/img/github_shh_add.png)
+
+\
+
+## Steps 1-4 only need to be completed one time per computer and account! 

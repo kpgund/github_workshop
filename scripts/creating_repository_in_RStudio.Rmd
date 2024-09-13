@@ -1,0 +1,103 @@
+---
+title: "Creating a repository & Rproject"
+output: 
+  html_document:
+    theme:
+      bootswatch:
+        sandstone
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## 1. Create a new repository and add a Rproject to it
+In the following example we are going to be creating a repository for an exisiting project we have been working on, moth presence. 
+
+### 1.1 Go into your GitHub account page and select `Repositories` tab. 
+
+![Press the green "New" button. This will create a new repository](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_newrepo.png)
+
+\
+
+### 1.2 Set up a new repository 
+![Give it a name (doesn't have to be what I have in the example photo).](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_createrepo.png) \
+Select "Private" \
+Select "Add a README file" 
+\
+**Once all the information is filled out select "Create Repository"**
+
+### 1.3 Copy ssh key link for this repository
+![In order to connect this repo with an Rproject, we need to connect this repo at a project on our computer](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_copyrepo.png)
+
+\
+
+## 2. Create a new Version Control RProject
+### 2.1 open R
+### 2.2 Go to File -> New Project
+### 2.3 Select the Version Control Project 
+![Select the Version Control project. This option allows us to connect our repository the quickest](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_createnewproject.png)
+
+\
+
+### 2.4 Select the `Git` Project from the Version Control options
+![Select `Git`](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_gitversion.png)
+
+\
+
+### 2.5 Copy the ssh key address from step 1.3
+![Copy the address from step 1.3 into "Repository URL". ](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_clonerepo.png)
+\
+The project directory name should auto populate to what you choose as the repo name. \
+Select "Browse" and choose a location that makes sense for your organization system. 
+\
+
+### 2.6 Create Project
+
+Once everything is how you would like it to be select `Create Project` The new Rproject will pop up. 
+
+\
+
+### 2.7. Bring your existing project over
+The simplest way to do this is to cut and paste what you would like to have in this repository. \
+![In RStudio, check the Git pane and the file browser for the updated files. ](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_filespopulatingGIT.png)
+\
+
+
+## 3. Start tracking files in your repository
+![Next to each folder/file is a color/symbol.](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_tracking.png)
+\
+
+In our Git Pane we see that our folders/files are yellow, this means they are "untracked" 
+\
+We will want to "Add" or "Stage" each of these folders/files 
+\
+
+### 3.1. Commit changes and push to repository. 
+Select "Commit" in the ribbon on the Git Pane. \
+![Next to each folder/file click on the white checkbox to "Add" or "Stage" the files/folders](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_committingFiles.png)
+![Once the all of them have been selected, the status should change to "A" for "Added"](C:/Users/kzg5211/OneDrive - The Pennsylvania State University/1_PhD/Workshops/github_workshop/img/github_firstcommit.png)
+\
+For this first commit, we will have a single commit message for all files/folders. However, we recommend that commit messages should be specific for specific changes happening to scripts / files. This will allow you to keep track of work better. 
+\
+**Press the commit button to start tracking these files. However, this DOES NOT send the changes to GitHub. However, each commit is saved on your local machine as a snapshot in time.**
+\
+
+### 3.2 Pushing committed changes to Github
+For changes to be uploaded to Github we need to **Push** our tracked commits. \
+Once all of your changes have been tracked through commits and commit messages, select the Push button in the top right hand corner (it has a green up arrow next to it). \
+This will send all of the commits (snapshots) off to GitHub. 
+
+\
+
+
+## Helpful links
+
+There are many resources all over the internet on connecting with GitHub and how to use it more efficiently. This is a tough process with a lot of bumps along the way but we appreciate you following along!
+\
+[Happy Git and GitHub for the useR](https://happygitwithr.com/index.html) \
+[Simona Picardi - Quantitative Ecoloyg and Reproducible science](https://www.picardiecology.com/) \
+[Rich Pauloo - How to keep your R projects organized](https://richpauloo.github.io/2018-10-17-How-to-keep-your-R-projects-organized/) \
+
