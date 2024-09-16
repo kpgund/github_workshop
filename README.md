@@ -1,6 +1,6 @@
 # Github Workshop Repository
 
-## Graduate student led workshop on Oct. 13th, 2022
+## Graduate student led workshop on Sept. 18th, 2024
 We focused on efficient project management with RStudio and GitHub. Our goal was to help graduate students develop a toolbox to create an effective workflow that is contained. 
 
 ## Led By: 
