@@ -9,4 +9,4 @@ Interested in learning more?
 check out Katie's [Github](https://github.com/kpgund), [website](https://kpgund.github.io/index.html), or [twitter](www.twitter.com/kpgund), if you're so inclined
 ### Veronica Winter
 Interested in learning more?
-check out Veronica's [Github](https://github.com/vermanica), [website](https://www.vwintereco.com/), or [twitter](www.twitter.com/winter_eco), if you're so inclined
+check out Veronica's [Github](https://github.com/vawinter), [website](https://www.vwintereco.com/), or [twitter](www.twitter.com/winter_eco), if you're so inclined
