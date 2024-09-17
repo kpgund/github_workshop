@@ -2,7 +2,7 @@
 library(sjPlot)
 
 ## load in the data
-load("ex-repo/outputs/moth-det-results.RData")
+load("outputs/moth-det-results.RData")
 summary(fit)
 
 ## extract coefficients
