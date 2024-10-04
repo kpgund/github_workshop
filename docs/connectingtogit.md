@@ -53,8 +53,13 @@ $ eval "$(ssh-agent -s)"
 ```
 
 ### 3.3 Copy the public key to your clipboard
+#### Mac
 ```
 $ pbcopy < ~/.ssh/id_ed25519.pub
+```
+#### PC 
+```
+$ clip < ~/.ssh/id_ed25519.pub
 ```
 
 ## 4. Connect SSH Key to Github
